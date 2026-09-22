@@ -175,77 +175,77 @@ const templateNamesTh = {
 
 const imagePool = Array.from({ length: 24 }, (_, index) => {
   const number = String(index + 1).padStart(2, "0");
-  return `./assets/templates/template-${number}.jpg`;
+  return `./template-${number}.jpg`;
 });
 
 const heroVideoAssets = [];
 
 const logoItems = [
-  { id: "tks-logo-2", title: "TKS Logo 2", image: "./assets/logos/tks-logo-2.png", fileName: "tks-logo-2.png" },
-  { id: "tks-logo-2026", title: "TKS Logo 2026", image: "./assets/logos/tks-logo-2026.png", fileName: "tks-logo-2026.png" },
-  { id: "siam", title: "SIAM PRESS", image: "./assets/logos/logo-siam.png", fileName: "logo-siam.png" },
-  { id: "alpha-prime", title: "Alpha Prime Fulfillment", image: "./assets/logos/alpha-prime-fulfillment.png", fileName: "alpha-prime-fulfillment.png" },
-  { id: "marvel-pack", title: "MARVEL PACK", image: "./assets/logos/marvel-pack.png", fileName: "marvel-pack.png" },
-  { id: "gofive-01", title: "Gofive Logo 01", image: "./assets/logos/gofive-logo-01.png", fileName: "gofive-logo-01.png" },
-  { id: "gofive-02", title: "Gofive Logo 02", image: "./assets/logos/gofive-logo-02.png", fileName: "gofive-logo-02.png" },
-  { id: "synnex", title: "Synnex", image: "./assets/logos/synnex.png", fileName: "synnex.png" },
-  { id: "shipx", title: "ShipX", image: "./assets/logos/shipx-logo.png", fileName: "shipx-logo.png" },
-  { id: "deskdoc", title: "DeskDoc", image: "./assets/logos/deskdoc.png", fileName: "deskdoc.png" },
-  { id: "tbdp", title: "TBDP Inno Teck", image: "./assets/logos/tbdp-logo.png", fileName: "tbdp-logo.png" },
+  { id: "tks-logo-2", title: "TKS Logo 2", image: "./tks-logo-2.png", fileName: "tks-logo-2.png" },
+  { id: "tks-logo-2026", title: "TKS Logo 2026", image: "./tks-logo-2026.png", fileName: "tks-logo-2026.png" },
+  { id: "siam", title: "SIAM PRESS", image: "./logo-siam.png", fileName: "logo-siam.png" },
+  { id: "alpha-prime", title: "Alpha Prime Fulfillment", image: "./alpha-prime-fulfillment.png", fileName: "alpha-prime-fulfillment.png" },
+  { id: "marvel-pack", title: "MARVEL PACK", image: "./marvel-pack.png", fileName: "marvel-pack.png" },
+  { id: "gofive-01", title: "Gofive Logo 01", image: "./gofive-logo-01.png", fileName: "gofive-logo-01.png" },
+  { id: "gofive-02", title: "Gofive Logo 02", image: "./gofive-logo-02.png", fileName: "gofive-logo-02.png" },
+  { id: "synnex", title: "Synnex", image: "./synnex.png", fileName: "synnex.png" },
+  { id: "shipx", title: "ShipX", image: "./shipx-logo.png", fileName: "shipx-logo.png" },
+  { id: "deskdoc", title: "DeskDoc", image: "./deskdoc.png", fileName: "deskdoc.png" },
+  { id: "tbdp", title: "TBDP Inno Teck", image: "./tbdp-logo.png", fileName: "tbdp-logo.png" },
 ];
 
 const homeAssets = [
-  { sub: "presentation", image: "./assets/templates/template-01.jpg", count: "4.4M" },
-  { sub: "cover", image: "./assets/templates/template-02.jpg", count: "1.15M" },
-  { sub: "timeline", image: "./assets/templates/template-03.jpg", count: "160k" },
-  { sub: "infographic", image: "./assets/templates/template-04.jpg", count: "230k" },
-  { sub: "newsletter", image: "./assets/templates/template-05.jpg", count: "270k" },
-  { sub: "background", image: "./assets/templates/template-06.jpg", count: "120k" },
-  { sub: "wallpaper", image: "./assets/templates/template-07.jpg", count: "3k" },
-  { sub: "gimmick", image: "./assets/templates/template-08.jpg", count: "12k" },
+  { sub: "presentation", image: "./template-01.jpg", count: "4.4M" },
+  { sub: "cover", image: "./template-02.jpg", count: "1.15M" },
+  { sub: "timeline", image: "./template-03.jpg", count: "160k" },
+  { sub: "infographic", image: "./template-04.jpg", count: "230k" },
+  { sub: "newsletter", image: "./template-05.jpg", count: "270k" },
+  { sub: "background", image: "./template-06.jpg", count: "120k" },
+  { sub: "wallpaper", image: "./template-07.jpg", count: "3k" },
+  { sub: "gimmick", image: "./template-08.jpg", count: "12k" },
 ];
 
 const masonryItems = [
-  { image: "./assets/mountain.jpg", size: "tall" },
-  { image: "./assets/hero-flower.jpg", size: "tall" },
-  { image: "./assets/portrait.jpg", size: "tall" },
-  { image: "./assets/waves.jpg", size: "wide" },
-  { image: "./assets/model-card.png", size: "square" },
-  { image: "./assets/templates/template-09.jpg", size: "wide" },
-  { image: "./assets/templates/template-10.jpg", size: "medium" },
-  { image: "./assets/templates/template-11.jpg", size: "small" },
-  { image: "./assets/templates/template-12.jpg", size: "small" },
+  { image: "./mountain.jpg", size: "tall" },
+  { image: "./hero-flower.jpg", size: "tall" },
+  { image: "./portrait.jpg", size: "tall" },
+  { image: "./waves.jpg", size: "wide" },
+  { image: "./model-card.png", size: "square" },
+  { image: "./template-09.jpg", size: "wide" },
+  { image: "./template-10.jpg", size: "medium" },
+  { image: "./template-11.jpg", size: "small" },
+  { image: "./template-12.jpg", size: "small" },
 ];
 
 const collections = [
-  { en: "Cloud Design", th: "Cloud Design", count: 49, image: "./assets/templates/template-13.jpg" },
-  { en: "Summer Campaign", th: "Summer Campaign", count: 129, image: "./assets/templates/template-14.jpg" },
-  { en: "Europe Travel", th: "Europe Travel", count: 150, image: "./assets/templates/template-15.jpg" },
-  { en: "Aesthetic Wallpaper", th: "Aesthetic Wallpaper", count: 174, image: "./assets/templates/template-16.jpg" },
-  { en: "Travel", th: "Travel", count: 119, image: "./assets/templates/template-17.jpg" },
-  { en: "Wild Animals", th: "Wild Animals", count: 185, image: "./assets/templates/template-18.jpg" },
-  { en: "Sports", th: "Sports", count: 142, image: "./assets/templates/template-19.jpg" },
-  { en: "Father's Day", th: "Father's Day", count: 100, image: "./assets/templates/template-20.jpg" },
-  { en: "Prompt Cards", th: "Prompt Cards", count: 98, image: "./assets/templates/template-21.jpg" },
-  { en: "World Day", th: "World Day", count: 193, image: "./assets/templates/template-22.jpg" },
-  { en: "Ocean", th: "Ocean", count: 120, image: "./assets/templates/template-23.jpg" },
-  { en: "Lifestyle", th: "Lifestyle", count: 162, image: "./assets/templates/template-24.jpg" },
+  { en: "Cloud Design", th: "Cloud Design", count: 49, image: "./template-13.jpg" },
+  { en: "Summer Campaign", th: "Summer Campaign", count: 129, image: "./template-14.jpg" },
+  { en: "Europe Travel", th: "Europe Travel", count: 150, image: "./template-15.jpg" },
+  { en: "Aesthetic Wallpaper", th: "Aesthetic Wallpaper", count: 174, image: "./template-16.jpg" },
+  { en: "Travel", th: "Travel", count: 119, image: "./template-17.jpg" },
+  { en: "Wild Animals", th: "Wild Animals", count: 185, image: "./template-18.jpg" },
+  { en: "Sports", th: "Sports", count: 142, image: "./template-19.jpg" },
+  { en: "Father's Day", th: "Father's Day", count: 100, image: "./template-20.jpg" },
+  { en: "Prompt Cards", th: "Prompt Cards", count: 98, image: "./template-21.jpg" },
+  { en: "World Day", th: "World Day", count: 193, image: "./template-22.jpg" },
+  { en: "Ocean", th: "Ocean", count: 120, image: "./template-23.jpg" },
+  { en: "Lifestyle", th: "Lifestyle", count: 162, image: "./template-24.jpg" },
 ];
 
 const collectionBrowserItems = [
   ...collections,
-  { en: "Mother's Day", th: "Mother's Day", count: 183, image: "./assets/portrait.jpg" },
-  { en: "Fashion", th: "Fashion", count: 249, image: "./assets/templates/template-02.jpg" },
-  { en: "Nature Videos", th: "Nature Videos", count: 130, image: "./assets/waves.jpg" },
-  { en: "Earth Day", th: "Earth Day", count: 200, image: "./assets/templates/template-03.jpg" },
-  { en: "Sky and Space", th: "Sky and Space", count: 250, image: "./assets/templates/template-04.jpg" },
-  { en: "Happy Easter", th: "Happy Easter", count: 87, image: "./assets/templates/template-05.jpg" },
-  { en: "Spring", th: "Spring", count: 300, image: "./assets/hero-flower.jpg" },
-  { en: "Celebrating Women", th: "Celebrating Women", count: 220, image: "./assets/illustration.png" },
-  { en: "Valentine's Day", th: "Valentine's Day", count: 250, image: "./assets/gif-card.gif" },
-  { en: "Brazil", th: "Brazil", count: 135, image: "./assets/templates/template-06.jpg" },
-  { en: "Lunar New Year", th: "Lunar New Year", count: 127, image: "./assets/templates/template-07.jpg" },
-  { en: "New Year Resolutions", th: "New Year Resolutions", count: 117, image: "./assets/templates/template-08.jpg" },
+  { en: "Mother's Day", th: "Mother's Day", count: 183, image: "./portrait.jpg" },
+  { en: "Fashion", th: "Fashion", count: 249, image: "./template-02.jpg" },
+  { en: "Nature Videos", th: "Nature Videos", count: 130, image: "./waves.jpg" },
+  { en: "Earth Day", th: "Earth Day", count: 200, image: "./template-03.jpg" },
+  { en: "Sky and Space", th: "Sky and Space", count: 250, image: "./template-04.jpg" },
+  { en: "Happy Easter", th: "Happy Easter", count: 87, image: "./template-05.jpg" },
+  { en: "Spring", th: "Spring", count: 300, image: "./hero-flower.jpg" },
+  { en: "Celebrating Women", th: "Celebrating Women", count: 220, image: "./illustration.png" },
+  { en: "Valentine's Day", th: "Valentine's Day", count: 250, image: "./gif-card.gif" },
+  { en: "Brazil", th: "Brazil", count: 135, image: "./template-06.jpg" },
+  { en: "Lunar New Year", th: "Lunar New Year", count: 127, image: "./template-07.jpg" },
+  { en: "New Year Resolutions", th: "New Year Resolutions", count: 117, image: "./template-08.jpg" },
 ];
 
 const articles = [
@@ -255,7 +255,7 @@ const articles = [
     tagEn: "Design System",
     tagTh: "ระบบดีไซน์",
     date: "July 27, 2026",
-    image: "./assets/nature.jpg",
+    image: "./nature.jpg",
   },
   {
     en: "How to organize visual prompts for teams",
@@ -263,7 +263,7 @@ const articles = [
     tagEn: "AI Workflow",
     tagTh: "AI Workflow",
     date: "July 22, 2026",
-    image: "./assets/sound.jpg",
+    image: "./sound.jpg",
   },
   {
     en: "From studio to screen: template reuse patterns",
@@ -271,7 +271,7 @@ const articles = [
     tagEn: "Templates",
     tagTh: "เทมเพลต",
     date: "July 14, 2026",
-    image: "./assets/illustration.png",
+    image: "./illustration.png",
   },
 ];
 
@@ -289,7 +289,7 @@ const businessPresentationTemplates = [
     code: "TPL-001",
     titleEn: "Minimal High-Tech Meeting Room",
     titleTh: "ห้องประชุมไฮเทคมินิมอล",
-    image: "./assets/templates/business-presentation-01.jpg",
+    image: "./business-presentation-01.jpg",
     prompt: templatePromptBase,
   },
   {
@@ -297,7 +297,7 @@ const businessPresentationTemplates = [
     code: "TPL-002",
     titleEn: "Corporate Meeting Room",
     titleTh: "ห้องประชุมองค์กร",
-    image: "./assets/templates/business-presentation-02.jpg",
+    image: "./business-presentation-02.jpg",
     prompt: templatePromptBase,
   },
   {
@@ -305,7 +305,7 @@ const businessPresentationTemplates = [
     code: "TPL-003",
     titleEn: "Dark High-Tech Meeting Room",
     titleTh: "ห้องประชุมไฮเทคโทนเข้ม",
-    image: "./assets/templates/business-presentation-03.jpg",
+    image: "./business-presentation-03.jpg",
     prompt: templatePromptBase,
   },
   {
@@ -313,7 +313,7 @@ const businessPresentationTemplates = [
     code: "TPL-004",
     titleEn: "High-Tech Corporate Briefing",
     titleTh: "บรีฟองค์กรไฮเทค",
-    image: "./assets/templates/business-presentation-04.jpg",
+    image: "./business-presentation-04.jpg",
     prompt: templatePromptBase,
   },
   {
@@ -321,7 +321,7 @@ const businessPresentationTemplates = [
     code: "TPL-005",
     titleEn: "Tech Growth ESG Cover",
     titleTh: "ปก Tech Growth ESG",
-    image: "./assets/templates/business-presentation-05.jpg",
+    image: "./business-presentation-05.jpg",
     prompt: templatePromptBase,
   },
 ];
@@ -332,7 +332,7 @@ const corporatePhotoTemplates = [
     code: "CPH-001",
     titleEn: "TKS Building Exterior 01",
     titleTh: "ภาพตึก TKS 01",
-    image: "./assets/templates/corporate-photo-tks-building-01.jpg",
+    image: "./corporate-photo-tks-building-01.jpg",
     fileName: "corporate-photo-tks-building-01.jpg",
   },
   {
@@ -340,7 +340,7 @@ const corporatePhotoTemplates = [
     code: "CPH-002",
     titleEn: "TKS Building Exterior 02",
     titleTh: "ภาพตึก TKS 02",
-    image: "./assets/templates/corporate-photo-tks-building-02.png",
+    image: "./corporate-photo-tks-building-02.png",
     fileName: "corporate-photo-tks-building-02.png",
   },
   {
@@ -348,7 +348,7 @@ const corporatePhotoTemplates = [
     code: "CPH-003",
     titleEn: "TKS Building Signage",
     titleTh: "ภาพป้ายอาคาร TKS",
-    image: "./assets/templates/corporate-photo-tks-building-03.jpg",
+    image: "./corporate-photo-tks-building-03.jpg",
     fileName: "corporate-photo-tks-building-03.jpg",
   },
 ];
@@ -359,7 +359,7 @@ const productBusinessTemplates = [
     code: "PRD-001",
     titleEn: "6K Product 2",
     titleTh: "6Kproduct2",
-    image: "./assets/templates/product-business-01.png",
+    image: "./product-business-01.png",
     fileName: "product-business-01.png",
   },
   {
@@ -367,7 +367,7 @@ const productBusinessTemplates = [
     code: "PRD-002",
     titleEn: "6K Product 1",
     titleTh: "6Kproduct1",
-    image: "./assets/templates/product-business-02.png",
+    image: "./product-business-02.png",
     fileName: "product-business-02.png",
   },
   {
@@ -375,7 +375,7 @@ const productBusinessTemplates = [
     code: "PRD-003",
     titleEn: "Box 1",
     titleTh: "box1",
-    image: "./assets/templates/product-business-03.png",
+    image: "./product-business-03.png",
     fileName: "product-business-03.png",
   },
   {
@@ -383,7 +383,7 @@ const productBusinessTemplates = [
     code: "PRD-004",
     titleEn: "Box 2",
     titleTh: "box2",
-    image: "./assets/templates/product-business-04.png",
+    image: "./product-business-04.png",
     fileName: "product-business-04.png",
   },
   {
@@ -391,7 +391,7 @@ const productBusinessTemplates = [
     code: "PRD-005",
     titleEn: "Box 3",
     titleTh: "box3",
-    image: "./assets/templates/product-business-05.png",
+    image: "./product-business-05.png",
     fileName: "product-business-05.png",
   },
   {
@@ -399,7 +399,7 @@ const productBusinessTemplates = [
     code: "PRD-006",
     titleEn: "Box 4",
     titleTh: "box4",
-    image: "./assets/templates/product-business-06.png",
+    image: "./product-business-06.png",
     fileName: "product-business-06.png",
   },
   {
@@ -407,7 +407,7 @@ const productBusinessTemplates = [
     code: "PRD-007",
     titleEn: "CodeG 1",
     titleTh: "CodeG1",
-    image: "./assets/templates/product-business-07.png",
+    image: "./product-business-07.png",
     fileName: "product-business-07.png",
   },
   {
@@ -415,7 +415,7 @@ const productBusinessTemplates = [
     code: "PRD-008",
     titleEn: "Passport 1",
     titleTh: "passport1",
-    image: "./assets/templates/product-business-08.png",
+    image: "./product-business-08.png",
     fileName: "product-business-08.png",
   },
   {
@@ -423,7 +423,7 @@ const productBusinessTemplates = [
     code: "PRD-009",
     titleEn: "RFID 1",
     titleTh: "RFID1",
-    image: "./assets/templates/product-business-09.png",
+    image: "./product-business-09.png",
     fileName: "product-business-09.png",
   },
   {
@@ -431,7 +431,7 @@ const productBusinessTemplates = [
     code: "PRD-010",
     titleEn: "TKS Paper 1",
     titleTh: "กระดาษทีเคเอส1",
-    image: "./assets/templates/product-business-10.png",
+    image: "./product-business-10.png",
     fileName: "product-business-10.png",
   },
   {
@@ -439,7 +439,7 @@ const productBusinessTemplates = [
     code: "PRD-011",
     titleEn: "Stamp 1",
     titleTh: "แสตมป์1",
-    image: "./assets/templates/product-business-11.png",
+    image: "./product-business-11.png",
     fileName: "product-business-11.png",
   },
   {
@@ -447,7 +447,7 @@ const productBusinessTemplates = [
     code: "PRD-012",
     titleEn: "Action 1",
     titleTh: "action1",
-    image: "./assets/templates/product-business-12.png",
+    image: "./product-business-12.png",
     fileName: "product-business-12.png",
   },
   {
@@ -455,7 +455,7 @@ const productBusinessTemplates = [
     code: "PRD-013",
     titleEn: "Label 1",
     titleTh: "Lable1",
-    image: "./assets/templates/product-business-13.png",
+    image: "./product-business-13.png",
     fileName: "product-business-13.png",
   },
   {
@@ -463,7 +463,7 @@ const productBusinessTemplates = [
     code: "PRD-014",
     titleEn: "Label 2",
     titleTh: "Lable2",
-    image: "./assets/templates/product-business-14.png",
+    image: "./product-business-14.png",
     fileName: "product-business-14.png",
   },
   {
@@ -471,7 +471,7 @@ const productBusinessTemplates = [
     code: "PRD-015",
     titleEn: "Security 2",
     titleTh: "security2",
-    image: "./assets/templates/product-business-15.png",
+    image: "./product-business-15.png",
     fileName: "product-business-15.png",
   },
   {
@@ -479,7 +479,7 @@ const productBusinessTemplates = [
     code: "PRD-016",
     titleEn: "Security 3",
     titleTh: "security3",
-    image: "./assets/templates/product-business-16.png",
+    image: "./product-business-16.png",
     fileName: "product-business-16.png",
   },
   {
@@ -487,7 +487,7 @@ const productBusinessTemplates = [
     code: "PRD-017",
     titleEn: "TKS Paper 2",
     titleTh: "กระดาษทีเคเอส2",
-    image: "./assets/templates/product-business-17.png",
+    image: "./product-business-17.png",
     fileName: "product-business-17.png",
   },
   {
@@ -495,7 +495,7 @@ const productBusinessTemplates = [
     code: "PRD-018",
     titleEn: "Tax 1",
     titleTh: "ภาษี1",
-    image: "./assets/templates/product-business-18.png",
+    image: "./product-business-18.png",
     fileName: "product-business-18.png",
   },
   {
@@ -503,7 +503,7 @@ const productBusinessTemplates = [
     code: "PRD-019",
     titleEn: "Digital Printing 2",
     titleTh: "digital printing 2",
-    image: "./assets/templates/product-business-19.png",
+    image: "./product-business-19.png",
     fileName: "product-business-19.png",
   },
   {
@@ -511,7 +511,7 @@ const productBusinessTemplates = [
     code: "PRD-020",
     titleEn: "Digital Printing 1",
     titleTh: "digital printing 1",
-    image: "./assets/templates/product-business-20.png",
+    image: "./product-business-20.png",
     fileName: "product-business-20.png",
   },
   {
@@ -519,7 +519,7 @@ const productBusinessTemplates = [
     code: "PRD-021",
     titleEn: "Security 1",
     titleTh: "security1",
-    image: "./assets/templates/product-business-21.png",
+    image: "./product-business-21.png",
     fileName: "product-business-21.png",
   },
   {
@@ -527,7 +527,7 @@ const productBusinessTemplates = [
     code: "PRD-022",
     titleEn: "Untitled 1",
     titleTh: "Untitled-1",
-    image: "./assets/templates/product-business-22.png",
+    image: "./product-business-22.png",
     fileName: "product-business-22.png",
   },
   {
@@ -535,7 +535,7 @@ const productBusinessTemplates = [
     code: "PRD-023",
     titleEn: "Coupon and Insert",
     titleTh: "คูปองและในเซอร์",
-    image: "./assets/templates/product-business-23.png",
+    image: "./product-business-23.png",
     fileName: "product-business-23.png",
   },
   {
@@ -543,7 +543,7 @@ const productBusinessTemplates = [
     code: "PRD-024",
     titleEn: "Cheque",
     titleTh: "เช็ค",
-    image: "./assets/templates/product-business-24.png",
+    image: "./product-business-24.png",
     fileName: "product-business-24.png",
   },
   {
@@ -551,7 +551,7 @@ const productBusinessTemplates = [
     code: "PRD-025",
     titleEn: "Exam Solution",
     titleTh: "โซลูชั่นข้อสอบ",
-    image: "./assets/templates/product-business-25.png",
+    image: "./product-business-25.png",
     fileName: "product-business-25.png",
   },
   {
@@ -559,7 +559,7 @@ const productBusinessTemplates = [
     code: "PRD-026",
     titleEn: "Passbook",
     titleTh: "พาสบุ๊ก",
-    image: "./assets/templates/product-business-26.png",
+    image: "./product-business-26.png",
     fileName: "product-business-26.png",
   },
 ];
@@ -570,7 +570,7 @@ const boardExecutiveTemplates = [
     code: "BEX-001",
     titleEn: "Supant Mongkolsuthree",
     titleTh: "สุพันธุ์ มงคลสุธี",
-    image: "./assets/templates/board-executive-01.png",
+    image: "./board-executive-01.png",
     fileName: "board-executive-01.png",
   },
   {
@@ -578,7 +578,7 @@ const boardExecutiveTemplates = [
     code: "BEX-002",
     titleEn: "Jutiphan Mongkolsuthree",
     titleTh: "จุติพันธุ์ มงคลสุธี",
-    image: "./assets/templates/board-executive-02.png",
+    image: "./board-executive-02.png",
     fileName: "board-executive-02.png",
   },
   {
@@ -586,7 +586,7 @@ const boardExecutiveTemplates = [
     code: "BEX-003",
     titleEn: "Suthida Mongkolsuthree",
     titleTh: "สุธิดา มงคลสุธี",
-    image: "./assets/templates/board-executive-03.png",
+    image: "./board-executive-03.png",
     fileName: "board-executive-03.png",
   },
   {
@@ -594,7 +594,7 @@ const boardExecutiveTemplates = [
     code: "BEX-004",
     titleEn: "Patinya Tawaaksorn",
     titleTh: "ปฏิญญา เทวอักษร",
-    image: "./assets/templates/board-executive-04.png",
+    image: "./board-executive-04.png",
     fileName: "board-executive-04.png",
   },
   {
@@ -602,7 +602,7 @@ const boardExecutiveTemplates = [
     code: "BEX-005",
     titleEn: "Apisak Tantivorawong",
     titleTh: "อภิศักดิ์ ตันติวรวงศ์",
-    image: "./assets/templates/board-executive-05.png",
+    image: "./board-executive-05.png",
     fileName: "board-executive-05.png",
   },
   {
@@ -610,7 +610,7 @@ const boardExecutiveTemplates = [
     code: "BEX-006",
     titleEn: "Pratana Mongkolkul",
     titleTh: "ปรารถนา มงคลกุล",
-    image: "./assets/templates/board-executive-06.png",
+    image: "./board-executive-06.png",
     fileName: "board-executive-06.png",
   },
   {
@@ -618,7 +618,7 @@ const boardExecutiveTemplates = [
     code: "BEX-007",
     titleEn: "Distat Hotrakitya",
     titleTh: "ดิสทัต โหตระกิตย์",
-    image: "./assets/templates/board-executive-07.png",
+    image: "./board-executive-07.png",
     fileName: "board-executive-07.png",
   },
   {
@@ -626,7 +626,7 @@ const boardExecutiveTemplates = [
     code: "BEX-008",
     titleEn: "Somchai Harnhirun",
     titleTh: "สมชาย หาญหิรัญ",
-    image: "./assets/templates/board-executive-08.png",
+    image: "./board-executive-08.png",
     fileName: "board-executive-08.png",
   },
   {
@@ -634,7 +634,7 @@ const boardExecutiveTemplates = [
     code: "BEX-009",
     titleEn: "Pakpoom Poo-Udom",
     titleTh: "ภาคภูมิ ภูอุดม",
-    image: "./assets/templates/board-executive-09.png",
+    image: "./board-executive-09.png",
     fileName: "board-executive-09.png",
   },
   {
@@ -642,7 +642,7 @@ const boardExecutiveTemplates = [
     code: "BEX-010",
     titleEn: "Tharathip Sringamphong",
     titleTh: "ธารทิพย์ ศรีงามผ่อง",
-    image: "./assets/templates/board-executive-10.png",
+    image: "./board-executive-10.png",
     fileName: "board-executive-10.png",
   },
   {
@@ -650,7 +650,7 @@ const boardExecutiveTemplates = [
     code: "BEX-011",
     titleEn: "Jirapong Wachirathanaporn",
     titleTh: "จิรพงศ์ วชิราธนาภรณ์",
-    image: "./assets/templates/board-executive-11.png",
+    image: "./board-executive-11.png",
     fileName: "board-executive-11.png",
   },
   {
@@ -658,7 +658,7 @@ const boardExecutiveTemplates = [
     code: "BEX-012",
     titleEn: "Rujee Jorapiphop",
     titleTh: "รุจี จรพิภพ",
-    image: "./assets/templates/board-executive-12.png",
+    image: "./board-executive-12.png",
     fileName: "board-executive-12.png",
   },
 ];
